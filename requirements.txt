@@ -3,7 +3,5 @@ tensorflow
 numpy
 pandas
 pysqlite3
-ast
-random
 scikit-learn
 matplotlib

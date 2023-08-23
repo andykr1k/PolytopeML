@@ -2,7 +2,7 @@ streamlit
 tensorflow
 numpy
 pandas
-sqlite3
+pysqlite3
 ast
 random
 scikit-learn

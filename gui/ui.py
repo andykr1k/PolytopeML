@@ -60,10 +60,10 @@ def Header():
 
     image = Image.open('./assets/logo.png')
 
-    img, head = st.columns([0.15,0.85])
+    img, head = st.columns([0.2,0.8])
 
     with img:
-        st.image(image, width=100)
+        st.image(image, width=150)
 
     with head:
         st.header("PolytopeML")

@@ -11,13 +11,27 @@ hide_streamlit_style = """
 # Hides Streamlit footer from UI
 ft = """
     <style>
+    a:link , a:visited{
+    color: #BFBFBF;  /* theme's text color hex code at 75 percent brightness*/
+    background-color: transparent;
+    text-decoration: none;
+    }
+
+    a:hover,  a:active {
+    color: #0283C3; /* theme's primary color*/
+    background-color: transparent;
+    text-decoration: underline;
+    }
+
     #page-container {
       position: relative;
       min-height: 0vh;
     }
+
     footer{
         visibility:hidden;
     }
+
     .footer {
     position: fixed;
     display: flex;
@@ -29,9 +43,14 @@ ft = """
     text-align: left; /* you can replace 'left' with 'center' or 'right' if you want*/
     }
     </style>
+
     <div id="page-container">
+
     <div class="footer">
+    <p style='font-size: 0.875em;'>Made with
+    with <img src="https://em-content.zobj.net/source/skype/289/red-heart_2764-fe0f.png" alt="heart" height= "10"/>&nbsp;by <a style='display: inline; text-align: left;' href="https://github.com/andykr1k" target="_blank">Andrew Krikorian</a></p>
     </div>
+
     </div>
     """
 
